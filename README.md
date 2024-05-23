@@ -1,5 +1,5 @@
-# Interactive-image-selection
+# Intelligent Scissors Image Selector
 
-A "Quizlet" style full-stack application that enables users to add decks of flashcards to class repositories -- currently, there are a few hard-coded classes, within which users who can signup/login, can create decks based on units. For example, in CS 2110, User "Mary Joe" may decide to create Deck "Djikstra's Algorithm," which is associated one-to-many with individual cards. There is a random quiz mode on backend, or the option to look at cards as desired. Tech Stack is Flask (Python) for backend and SQLAlchemy for database + ORM, and Swift for frontend (IOS application).
+The Intelligent Scissors Image Selector is a sophisticated graphical application designed to enhance the user experience in image segmentation. Building on a basic selection tool that connects control points with straight lines, this enhanced version introduces an automated edge-detection feature called "Intelligent Scissors." This feature leverages Dijkstra’s algorithm to trace the natural contours of subjects within images, making it ideal for complex shapes with curved edges. The application supports interactive use with a responsive UI, including a progress bar that updates during the edge-detection process. Users can switch seamlessly between manual and automated modes to achieve precise selections. This tool is especially useful for tasks that require detailed image editing and manipulation, providing both efficiency and accuracy in handling digital images.
 
-http://34.86.33.147(/api/) -- for backend server
+By Fadi Ismail (fmi4) and Ahmed Abdulla (aaa384)
